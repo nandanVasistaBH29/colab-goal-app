@@ -1,0 +1,20 @@
+{
+  "name": "colab-goal-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.mjx",
+    "dev": "nodemon src/index.mjx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.3.2",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "mongodb": "^5.0.0"
+  }
+}
